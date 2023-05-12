@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+ background-color: rgb(115, 50, 200);   
+}
+.main{
+    text-align: justify;
+    font-size: large;
+    font-family: tahoma, Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+}
+.bold{
+    margin-top: 10px;
+    padding: 10px 10px;
+    color: palevioletred;
+  
+}
+.image{
+    width: 300;
+    height: 200;
+    border-radius: 50;
+}
+.image img{
+    height: 60%;
+    width: 30%;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: right;
+    object-fit: contain;
+}
+
+  .btn {
+    text-decoration-color: rgb(126, 126, 214);
+    border-color: black;
+    transition: .4s ease;
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 5px 5px;
+  }
+  .btn:hover{
+    color:rgb(228, 34, 34);
+  }
+  .space{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-top: 5px;
+    padding: 5px 5px;
+    text-align: justify;
+  }
+  .topic{
+    border: 16px;
+    margin-top: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+  }
